@@ -158,3 +158,21 @@ opkg install aliyundrive-webdav_1.10.1-1_x86_64.ipk
 opkg install luci-app-aliyundrive-webdav_1.10.1_all.ipk
 opkg install luci-i18n-aliyundrive-webdav-zh-cn_1.10.1-1_all.ipk
 ```
+
+
+### Docker qbittorrent Installation
+```
+docker pull linuxserver/qbittorrent
+
+docker run -d \
+  --name=qbittorrent  \
+  --network openwrt-LAN \
+  -e WEBUI_PORT=8080 \
+  -p 9821:6881 \
+  -p 9821:6881/udp \
+  -p 8080:8080 \
+  -v /home/freedom/Downloads:/downloads \
+  --restart unless-stopped \
+  linuxserver/qbittorrent
+  ```
+  
