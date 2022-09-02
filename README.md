@@ -1,5 +1,5 @@
 # openwrt_home
-Installation Openwrt to old PC which is the Ubtuntu 20.04
+Installation Openwrt to old PC which is the Ubuntu 20.04
 
 ## 1 install Ubuntu on the laptop
 ### 1.1 Tools requirement:
