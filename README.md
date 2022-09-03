@@ -176,6 +176,7 @@ docker run -d \
   linuxserver/qbittorrent
   ```
   
-  ### Docker Clash Installation
+### Docker Clash Installation
   
-  https://zhuanlan.zhihu.com/p/423684520
+Refer: https://zhuanlan.zhihu.com/p/423684520
+
